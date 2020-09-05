@@ -172,7 +172,7 @@ function send_form() {
 var msg = $("#forma").serialize();
 $.ajax({
 type: "POST",
-url: "/send_form.php",
+url: "stydiaoblako@mail.ru/send_form.php",
 data: msg,
 success: function(data) {
 alert("Сообщение отправлено");
